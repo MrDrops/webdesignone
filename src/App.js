@@ -1,23 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import SocialBar from './components/SocialBar/SocialBar';
+import NavBar from './components/NavBar/NavBar';
+import TitlePanel from './components/TitlePanel/TitlePanel';
+import RotatePanel from './components/RotatePanel/RotatePanel';
+import About from './components/About/About';
+import VideoPanel from './components/Video/VideoPanel';
+import WhatWeDo from './components/WhatWeDo/WhatWeDo';
+import Blog from './components/Blog/Blog';
+import Testimonials from './components/Testimonials/Testimonials';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <SocialBar />
+      <NavBar />
+      <TitlePanel />
+      <RotatePanel />
+      <About />
+      <VideoPanel />
+      <WhatWeDo />
+      <Blog />
+      <Testimonials />
+      <Footer />
     </div>
   );
 }

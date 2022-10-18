@@ -1,0 +1,17 @@
+.socialbar-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: midnightblue;
+    color: white;
+}
+
+.social-media-links {
+    display: flex;
+    list-style: none;
+    height: 100%;
+}
+
+.social-media-links li {
+    padding: 10px 5px 10px 5px;
+    border-left: 1px solid white;
+}

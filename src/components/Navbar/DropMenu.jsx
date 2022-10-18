@@ -1,11 +1,11 @@
 import React from 'react'
 
-function SocialLink() {
+function DropMenu() {
   return (
     <div>
-        LinkLogo
+        Menu
     </div>
   )
 }
 
-export default SocialLink
+export default DropMenu

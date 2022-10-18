@@ -1,8 +1,12 @@
-import React from 'react'
+import RotateElement from "./RotateElement";
 
 function RotatePanel() {
   return (
-    <div>RotatePanel</div>
+    <div className="rotatePanel-container">
+      <RotateElement />
+      <RotateElement />
+      <RotateElement />
+    </div>
   )
 }
 
